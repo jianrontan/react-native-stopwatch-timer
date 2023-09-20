@@ -1,3 +1,7 @@
+#### My Changes
+
+Replaced deprecated componentWillReceiveProps with componentDidUpdate in timer.js and stopwatch.js to prevent console warning
+
 ## React Native Stopwatch Timer
 
 A React Native component that provides a stopwatch and timer.
@@ -41,9 +45,6 @@ import { Stopwatch, Timer } from 'react-native-stopwatch-timer'
 |totalDuration|Integer|number of milliseconds to set timer for|0|
 |handleFinish|function|function to perform when timer completes|() => alert("Timer Finished")|
 
-#### My Changes
-
-Replaced deprecated componentWillReceiveProps with componentDidUpdate in timer.js and stopwatch.js to prevent console warning
 
 ### Example
 
